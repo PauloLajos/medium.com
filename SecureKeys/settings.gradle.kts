@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Secure Keys"
+rootProject.name = "SecureKeys"
 include(":app")
