@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Dynamic Feature Modules"
 include(":app")
+include(":customer_support")
