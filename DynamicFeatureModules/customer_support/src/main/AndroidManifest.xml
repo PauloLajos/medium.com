@@ -8,6 +8,17 @@
         <dist:delivery>
             <dist:on-demand />
         </dist:delivery>
+
         <dist:fusing dist:include="false" />
     </dist:module>
+
+    <application
+        android:icon="@mipmap/ic_launcher" >
+        <activity
+            android:name=".CustomerSupportActivity"
+            android:exported="false"
+            android:label="@string/title_activity_customer_support"
+            android:theme="@style/Theme.DynamicFeatureModules" />
+    </application>
+
 </manifest>
